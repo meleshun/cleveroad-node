@@ -1,0 +1,36 @@
+{
+  "name": "cleveroad-node",
+  "version": "1.0.0",
+  "description": "RESTful API based on Node.js, which allows a user to register and place an advertisement for the sale of a product.",
+  "main": "index.js",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "dotenv": "^10.0.0",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-passport": "^4.1.4",
+    "koa-router": "^10.0.0",
+    "koa-static": "^5.0.0",
+    "mysql2": "^2.3.0",
+    "passport-local": "^1.0.0",
+    "sequelize": "^6.6.5",
+    "uuid": "^8.3.2",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.0",
+    "sequelize-cli": "^6.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cleveroad",
+    "node",
+    "API"
+  ],
+  "author": "Daniel Meleshun <meleshun@gmail.com>",
+  "license": "MIT"
+}
