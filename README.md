@@ -17,7 +17,7 @@ Main functionality:
     npm install
 
 ##### Set environment variables
-Set environment variables by specifying them in the `**.env** located in the root of the project.
+Set environment variables by specifying them in the **.env** located in the root of the project.
 
 ##### Create migrations (optional)
     sequelize db:migrate
