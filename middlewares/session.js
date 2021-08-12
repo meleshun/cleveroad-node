@@ -1,7 +1,7 @@
 const { Session } = require('../models');
 
 module.exports = async function session(ctx, next) {
-  const token = ctx.request.get('token');
+  const token = ctx.request.get('Authorization');
   if (!token) return next();
 
   const session = await Session.findOne({
